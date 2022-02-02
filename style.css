@@ -1,0 +1,90 @@
+*{
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	font-family: 'Oswald', sans-serif;
+}
+body{
+	background-color: #f9f8fa;
+}
+.c-h{
+	text-align: center;
+	margin-top: 20px;
+}.c-h h2{
+	font-family: "Bebas Neue", cursive;
+	font-size: 40px;
+	pointer-events: none;
+}
+.cmain{
+	background-color: #f9f8fa;
+	background-size: cover;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.container {
+    max-width: 400px;
+    margin: 7vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    margin-bottom: 80px;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 0.5px solid #696969;
+    border-left: 0.5px solid #696969;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 0.5px solid #696969;
+    border-right: 0.5px solid ##696969;
+}
+
+.button {
+    border: 0.5px solid #696969;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background: rgb(149,0,0);
+    background: linear-gradient(180deg, rgba(149,0,0,1) 7%, rgba(156,2,2,1) 88%);
+    color: white;
+}#equal:hover {
+	background: rgb(89,0,0);
+background: linear-gradient(180deg, rgba(89,0,0,1) 7%, rgba(103,0,0,1) 88%);
+}
+
+.button:hover {
+    background-color: #1C1B1B;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+#c{
+	background-color: #212121;
+	color: white;
+}#c:hover{
+	background-color: black;
+}
+#back{
+	background-color: #212121;
+    color: white;
+}#back:hover{
+	background-color: black;
+}
+h5{
+	text-align: center;
+}
